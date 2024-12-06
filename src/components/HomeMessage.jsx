@@ -9,15 +9,16 @@ const HomeMessage = () => {
         borderRadius: 8,
         display: "flex",
         alignItems: "center",
-        width: "100%",
+        width: "fit-content",
         maxWidth: 500,
-        backgroundColor: "black",
+        backgroundColor: "rgba(0, 0, 0, 0.87)",
         height: "fit-content",
+        margin: 1,
       }}
     >
       <Box
         sx={{
-          width: "100%",
+          width: "fit-content",
         }}
       >
         <Box
@@ -47,7 +48,8 @@ const HomeMessage = () => {
           fontFamily={"Della Respira"}
           sx={{
             color: "#f5f2f1",
-            marginX: 10,
+            marginX: 5,
+            textWrap: "wrap",
           }}
         >
           Plan your perfect <b>holiday movie night</b> or a{" "}

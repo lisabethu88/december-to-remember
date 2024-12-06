@@ -45,6 +45,7 @@ const Select = () => {
         width: "100%",
         minWidth: 300,
         mx: 2,
+        my: 5,
       }}
     >
       {questions.map((question) => (
@@ -58,7 +59,19 @@ const Select = () => {
             value={answers[question.id] || null}
             onChange={(e, newValue) => handleChange(question.id, newValue)}
             renderInput={(params) => (
-              <TextField {...params} label={"Select"} fullWidth />
+              <TextField
+                {...params}
+                label={"Select"}
+                fullWidth
+                sx={{
+                  "& .MuiOutlinedInput-root": {
+                    "&.Mui-focused fieldset": {
+                      borderColor: "rgba(171, 166, 166, 0.87) ",
+                    },
+                  },
+                  backgroundColor: "white",
+                }}
+              />
             )}
           />
           <Divider sx={{ my: 2 }} />
