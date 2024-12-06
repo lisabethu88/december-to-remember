@@ -6,7 +6,6 @@ const HomeMessage = () => {
   return (
     <Box
       sx={{
-        //boxShadow: 1,
         borderRadius: 8,
         display: "flex",
         alignItems: "center",
@@ -18,7 +17,6 @@ const HomeMessage = () => {
     >
       <Box
         sx={{
-          minHeight: 300,
           width: "100%",
         }}
       >
@@ -32,14 +30,14 @@ const HomeMessage = () => {
           <Box
             component={"img"}
             src={borderCorner}
-            sx={{ width: 100, height: 100 }}
+            sx={{ width: 75, height: 75 }}
           />
           <Box
             component={"img"}
             src={borderCorner}
             sx={{
-              width: 100,
-              height: 100,
+              width: 75,
+              height: 75,
               transform: "scaleX(-1)",
             }}
           />
@@ -69,8 +67,8 @@ const HomeMessage = () => {
             component={"img"}
             src={borderCorner}
             sx={{
-              width: 100,
-              height: 100,
+              width: 75,
+              height: 75,
               transform: "scaleY(-1)",
             }}
           />
@@ -78,8 +76,8 @@ const HomeMessage = () => {
             component={"img"}
             src={borderCorner}
             sx={{
-              width: 100,
-              height: 100,
+              width: 75,
+              height: 75,
               transform: "scale(-1)",
             }}
           />
