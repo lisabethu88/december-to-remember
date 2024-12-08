@@ -6,7 +6,7 @@ const HomeMessage = () => {
   return (
     <Box
       sx={{
-        borderRadius: 8,
+        borderRadius: 5,
         display: "flex",
         alignItems: "center",
         width: "fit-content",
