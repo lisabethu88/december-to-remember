@@ -26,9 +26,9 @@ h6 {
 
 label,
 li,
-input {
+input,
+.answers {
   font-family: Lexend Deca !important;
-  /* font-weight: 500 !important; */
   color: rgba(0, 0, 0, 0.87) !important;
-  /* letter-spacing: 1px !important; */
+  font-weight: 300 !important;
 }

@@ -22,19 +22,7 @@ export const questions = [
       "Do you want a romantic holiday story or something focused on family and friendship?",
     options: ["Romantic", "Family and Friendship"],
   },
-  {
-    id: "ageType",
-    label:
-      "Do you want a romantic holiday story or something focused on family and friendship?",
-    options: ["Romantic", "Family and Friendship"],
-  },
-  // 2. Themes and Genres
-  {
-    id: "storyType",
-    label:
-      "Do you want a romantic holiday story or something focused on family and friendship?",
-    options: ["Romantic", "Family and Friendship"],
-  },
+
   {
     id: "movieCharacters",
     label:
