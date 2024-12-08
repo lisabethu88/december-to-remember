@@ -13,6 +13,7 @@ import LeftImages from "./components/LeftImages";
 import RightImages from "./components/RightImages";
 import film from "./assets/film.png";
 import snack from "./assets/snack.png";
+import ScrollIndicator from "./components/ScrollIndicator";
 
 function App() {
   const [answers, setAnswers] = useState({});
@@ -215,6 +216,7 @@ Only return the JSON object and ensure it is properly formatted.`;
                 </Box>
               )}
             </Box>
+            <ScrollIndicator recommendation={recommendation} />
 
             {!recommendation && (
               <SubmitButton answers={answers} handleSubmit={handleSubmit} />
