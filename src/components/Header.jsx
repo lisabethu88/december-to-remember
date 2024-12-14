@@ -22,8 +22,7 @@ function HideOnScroll(props) {
 
 export default function Header(props) {
   return (
-    <Box component={"header"}>
-      <CssBaseline />
+    <>
       <HideOnScroll {...props}>
         <AppBar sx={{ boxShadow: 0 }}>
           <Toolbar sx={{ padding: 1, backgroundColor: " #f5f2f1" }}>
@@ -41,7 +40,6 @@ export default function Header(props) {
           </Toolbar>
         </AppBar>
       </HideOnScroll>
-      <Toolbar />
-    </Box>
+    </>
   );
 }
