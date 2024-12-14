@@ -25,7 +25,7 @@ export default function Header(props) {
     <Box component={"header"}>
       <CssBaseline />
       <HideOnScroll {...props}>
-        <AppBar sx={{ boxShadow: 2 }}>
+        <AppBar sx={{ boxShadow: 0 }}>
           <Toolbar sx={{ padding: 1, backgroundColor: " #f5f2f1" }}>
             <Box
               component={"img"}
