@@ -43,7 +43,7 @@ input,
   color: white;
   padding: 10px;
   border-radius: 8px;
-  font-size: 14px;
+  font-size: 1rem;
   opacity: 0.8;
   cursor: pointer;
   animation: bounce 2s infinite; /* Optional: draw attention */
@@ -52,7 +52,7 @@ input,
 
 .scroll-indicator .arrow {
   display: block;
-  font-size: 18px;
+  font-size: 1rem;
 }
 
 @keyframes bounce {
@@ -63,4 +63,9 @@ input,
   50% {
     transform: translateY(-5px);
   }
+}
+
+:focus-visible {
+  outline: 3px solid #d4452c !important;
+  border-radius: 1px !important;
 }
