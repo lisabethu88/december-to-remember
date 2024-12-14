@@ -155,6 +155,7 @@ Only return the JSON object and ensure it is properly formatted.`;
                         height: "fit-content",
                         display: { xs: "none", sm: "block" },
                       }}
+                      alt="Victorian-style illustration of a bellows camera in black and white, showing its accordion-like bellows, lens, and wooden frame."
                     ></Box>
                     <Box>
                       <Typography sx={{ fontFamily: " Della Respira" }}>
@@ -191,6 +192,7 @@ Only return the JSON object and ensure it is properly formatted.`;
                         height: "fit-content",
                         display: { xs: "none", sm: "block" },
                       }}
+                      alt="Black and white Victorian-style illustration of a snack platter, featuring an assortment of foods such as fruits, cheeses, bread, and small dishes arranged decoratively."
                     ></Box>
                     <Box>
                       <Typography sx={{ fontFamily: " Della Respira" }}>

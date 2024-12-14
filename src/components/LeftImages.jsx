@@ -22,7 +22,7 @@ const LeftImages = () => {
         src={santa_cc}
         loading="lazy"
         data-aos="fade-right"
-        alt="Zoom in animation"
+        alt="Victorian etching-style illustration featuring a candy cane in the upper left corner and a laughing Santa Claus from the shoulders up in the bottom right corner."
         sx={IMG_STYLE}
       />
       <Box
@@ -30,7 +30,7 @@ const LeftImages = () => {
         src={tree_mitens}
         loading="lazy"
         data-aos="fade-right"
-        alt="Zoom in animation"
+        alt="Victorian etching-style illustration featuring mittens in the upper right corner and a Christmas tree in the bottom left corner."
         sx={{
           ...IMG_STYLE,
         }}
@@ -40,7 +40,7 @@ const LeftImages = () => {
         src={branch_deer}
         loading="lazy"
         data-aos="fade-right"
-        alt="Zoom in animation"
+        alt="Victorian etching-style illustration featuring a branch in the upper left corner and a deer in the bottom right corner."
         sx={{
           ...IMG_STYLE,
         }}
@@ -50,7 +50,7 @@ const LeftImages = () => {
         src={hand_coco}
         loading="lazy"
         data-aos="fade-right"
-        alt="Zoom in animation"
+        alt="Victorian etching-style illustration of a hand holding an ornament in the upper right corner and a hot cocoa in the bottom left corner."
         sx={{
           ...IMG_STYLE,
         }}
@@ -60,7 +60,7 @@ const LeftImages = () => {
         src={snowman_present}
         loading="lazy"
         data-aos="fade-right"
-        alt="Zoom in animation"
+        alt="Victorian etching-style illustration of a snowman in the upper left corner and a present in the bottom right corner."
         sx={{
           ...IMG_STYLE,
         }}
@@ -70,7 +70,7 @@ const LeftImages = () => {
         src={globe_ornament}
         loading="lazy"
         data-aos="fade-right"
-        alt="Zoom in animation"
+        alt="Victorian etching-style illustration of a snowglobe in the upper right corner and an ornament in the bottom left corner."
         sx={{
           ...IMG_STYLE,
         }}

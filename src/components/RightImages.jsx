@@ -25,7 +25,7 @@ function RightImages() {
         loading="lazy"
         ly
         data-aos="fade-left"
-        alt="Zoom in animation"
+        alt="Victorian etching-style illustration of a hand holding an ornament in the upper right corner and a hot cocoa in the bottom left corner."
         sx={{
           ...IMG_STYLE,
         }}
@@ -35,7 +35,7 @@ function RightImages() {
         src={snowman_present}
         loading="lazy"
         data-aos="fade-left"
-        alt="Zoom in animation"
+        alt="Victorian etching-style illustration of a snowman in the upper left corner and a present in the bottom right corner."
         sx={{
           ...IMG_STYLE,
         }}
@@ -45,7 +45,7 @@ function RightImages() {
         src={globe_ornament}
         loading="lazy"
         data-aos="fade-left"
-        alt="Zoom in animation"
+        alt="Victorian etching-style illustration of a snowglobe in the upper right corner and an ornament in the bottom left corner."
         sx={{
           ...IMG_STYLE,
         }}
@@ -55,7 +55,7 @@ function RightImages() {
         src={santa_cc}
         loading="lazy"
         data-aos="fade-left"
-        alt="Zoom in animation"
+        alt="Victorian etching-style illustration featuring a candy cane in the upper left corner and a laughing Santa Claus from the shoulders up in the bottom right corner."
         sx={IMG_STYLE}
       />
       <Box
@@ -63,7 +63,7 @@ function RightImages() {
         src={tree_mitens}
         loading="lazy"
         data-aos="fade-left"
-        alt="Zoom in animation"
+        alt="Victorian etching-style illustration featuring mittens in the upper right corner and a Christmas tree in the bottom left corner."
         sx={{
           ...IMG_STYLE,
         }}
@@ -73,7 +73,7 @@ function RightImages() {
         src={branch_deer}
         loading="lazy"
         data-aos="fade-left"
-        alt="Zoom in animation"
+        alt="Victorian etching-style illustration featuring a branch in the upper left corner and a deer in the bottom right corner."
         sx={{
           ...IMG_STYLE,
         }}

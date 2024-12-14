@@ -28,6 +28,7 @@ export default function Header(props) {
         <AppBar sx={{ boxShadow: 0 }}>
           <Toolbar sx={{ padding: 1, backgroundColor: " #f5f2f1" }}>
             <Box
+              alt="Black and white logo in a Victorian etching style, featuring a pair of drama and comedy masks at the center with holly illustrations on both sides. The website name 'Merry Flickmas' is written above, and 'Est 2024' is displayed below."
               component={"img"}
               loading="lazy"
               data-aos="zoom-in"

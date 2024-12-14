@@ -32,6 +32,7 @@ const HomeMessage = () => {
             component={"img"}
             src={borderCorner}
             sx={{ width: 75, height: 75 }}
+            alt="Victorian etching-style illustration of a corner border with intricately detailed leaves, designed in a cream color."
           />
           <Box
             component={"img"}
@@ -41,6 +42,7 @@ const HomeMessage = () => {
               height: 75,
               transform: "scaleX(-1)",
             }}
+            alt="Victorian etching-style illustration of a corner border with intricately detailed leaves, designed in a cream color."
           />
         </Box>
         <Typography
@@ -73,6 +75,7 @@ const HomeMessage = () => {
               height: 75,
               transform: "scaleY(-1)",
             }}
+            alt="Victorian etching-style illustration of a corner border with intricately detailed leaves, designed in a cream color."
           />
           <Box
             component={"img"}
@@ -82,6 +85,7 @@ const HomeMessage = () => {
               height: 75,
               transform: "scale(-1)",
             }}
+            alt="Victorian etching-style illustration of a corner border with intricately detailed leaves, designed in a cream color."
           />
         </Box>
       </Box>
