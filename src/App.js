@@ -152,7 +152,6 @@ Only return the JSON object and ensure it is properly formatted.`;
                       src={film}
                       sx={{
                         maxWidth: 100,
-                        height: "fit-content",
                         display: { xs: "none", sm: "block" },
                       }}
                       alt="Victorian-style illustration of a bellows camera in black and white, showing its accordion-like bellows, lens, and wooden frame."
@@ -189,7 +188,6 @@ Only return the JSON object and ensure it is properly formatted.`;
                       src={snack}
                       sx={{
                         maxWidth: 100,
-                        height: "fit-content",
                         display: { xs: "none", sm: "block" },
                       }}
                       alt="Black and white Victorian-style illustration of a snack platter, featuring an assortment of foods such as fruits, cheeses, bread, and small dishes arranged decoratively."
