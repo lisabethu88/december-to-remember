@@ -96,7 +96,7 @@ Only return the JSON object and ensure it is properly formatted.`;
       <Box
         component={"main"}
         sx={{
-          my: 25,
+          my: 30,
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
